@@ -5,9 +5,25 @@ public class Operadores2 {
         int numero = 5;
 
         // numero = numero +1;
-        numero++;
+        // numero++;
+
+        System.out.println(++numero);
+
+        System.out.println(numero--);
 
         System.out.println(numero);
+
+        boolean variavel = true;
+
+        System.out.println(!variavel);
+
+        System.out.println(variavel);
+
+        // para mudar o valor sem ser em memória da boolean
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
 
     }
 }
