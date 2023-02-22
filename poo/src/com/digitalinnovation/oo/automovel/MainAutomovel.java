@@ -1,8 +1,6 @@
-package com.digitalinnovation.oo;
+package com.digitalinnovation.oo.automovel;
 
-import com.digitalinnovation.oo.automovel.Carro;
-
-public class Main {
+public class MainAutomovel {
     public static void main(String[] args) {
         Carro ferrari = new Carro();
         ferrari.setCapacidadeTanque(50);
